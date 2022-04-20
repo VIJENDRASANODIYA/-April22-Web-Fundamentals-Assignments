@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Nested table</title>
+</head>
+<body>
+    <table cellspacing="1" cellpadding="1">
+        <tr>
+           <td>
+            <table cellspacing="3" cellpadding="3" width ="150">
+                <thead>
+                    <tr>
+                        <th>Make your parenting journey easier </th>
+                    </tr>
+        
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/Prenatal_essentials._SY116_CB667655033_.jpg" alt="">
+                            <p>prenature essentials</p>
+                        </td>
+                    
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/0-2_years_baby_essentials._SY116_CB667655033_.jpg" alt="">
+                            <p>0-2 years baby essential</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/2-4_years_baby_essentials._SY116_CB667655033_.jpg" alt="">
+                            <p>0-4 years baby essential</p>
+                        </td>
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/Explore_more._SY116_CB667655033_.jpg "alt="">
+                            <p>explore more</p>
+                        </td>
+                    </tr>
+                    
+        
+                </tbody>
+            </table>
+            
+
+           </td>
+           <td>
+            <table cellspacing="3" cellpadding="3">
+                <thead>
+                    <tr align="center">
+                        <th>Shop for your baby by age</th><br>
+                    </tr>
+        
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/0-6_months._SY116_CB667649399_.jpg" alt="">
+                            <p>0-6 month</p>
+                        </td>
+                    
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/6-12_months._SY116_CB667649399_.jpg" alt="">
+                            <p>6-12 month</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/12-18_months._SY116_CB667649399_.jpg" alt="">
+                            <p>12-18 month</p>
+                        </td>
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/18-24_months._SY116_CB667649399_.jpg" alt="">
+                            <p>18-24 month</p>
+                        </td>
+                    </tr>
+                    
+        
+                </tbody>
+            </table>
+            
+           </td>
+           <td>
+            <table cellspacing="3" cellpadding="3">
+                <thead>
+                    <tr align="center">
+                        <th>Multi-task securely</th><br><br>
+                    </tr>
+        
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/VG-2019Dec/SW-QC-XCAT-PC-1x_01._SY116_CB665766031_.jpg" alt="">
+                            <p>up-to 50% off antivirus</p>
+                        </td>
+                    
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/VG-2019Dec/SW-QC-XCAT-PC-1x_02._SY116_CB665766031_.jpg" alt="">
+                            <p>microsoft office suite </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/VG-2019Dec/SW-QC-XCAT-PC-1x_03._SY116_CB665766031_.jpg" alt="">
+                            <p>25% of with microsoft and 365 of your system</p>
+                        </td>
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/VG-2019Dec/SW-QC-XCAT-PC_04._SY116_CB665766031_.jpg" alt="">
+                            <p>premeum headphones</p>
+                        </td>
+                    </tr>
+                    
+        
+                </tbody>
+            </table>
+            
+           </td>
+           <td> <table cellspacing="3" cellpadding="3">
+            <thead>
+                <tr align="center">
+                    <th>Handpicked products for your baby</th>
+                </tr>
+    
+            </thead>
+            <tbody>
+                <tr>
+                    
+                        <td>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Baby/GW/Desktop/DesktopQC_NB_1X._SY116_CB448757679_.jpg" alt="">
+                            <p>Newborn baby store</p>
+                        </td>
+                    <td>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Baby/GW/Desktop/DesktopQC_Diapers_1X._SY116_CB448757679_.jpg" alt="">
+                        <p>diepers and wipes</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Baby/GW/Desktop/DesktopQC_Premium_1X._SY116_CB448757679_.jpg" alt="">
+                        <p>premium baby store</p>
+                    </td>
+                    <td>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Baby/GW/Desktop/DesktopQC_AllBaby_1X._SY116_CB448757679_.jpg" alt="">
+                        <p>all baby product</p>
+                    </td>
+                </tr>
+                
+    
+            </tbody>
+        </table>
+        </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
