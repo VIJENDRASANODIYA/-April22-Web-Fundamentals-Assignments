@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Navbar Section*/
+      .navbar {
+        position: fixed;
+        top: 0%;
+        background-color: white;
+        width: 100%;
+        box-shadow: 0px 0px 8px rgb(0 0 0 /15%);
+      }
+      ul {
+        width: 100%;
+        list-style-type: none;
+        font-family: "Lato", sans-serif;
+        font-weight: 600;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        padding: 20px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        font-family: lato;
+      }
+      /* banner section */
+      .container {
+        width: 100%;
+        margin: 3% 0;
+      }
+      .banner {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        background-color:#abc03b;
+};
+      }
+      .banner .img {
+        width: 100%;
+        margin: 35px;
+        padding: 5% 0%;
+      }
+      .banner .content {
+        font-family: "Lato", sans-serif;
+        padding: 6% 0;
+      }
+      .banner .content .title {
+        font-size: 50px;
+      }
+      .banner .content .title span {
+        font-weight: 900;
+      }
+      .banner .content .desc {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .banner .content .btn {
+        border-radius: 20px;
+        background-color: darkkhaki;
+        color: black;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      .banner .content .btn:hover {
+        background-color: cornflowerblue;
+      }
+      .about {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+      }
+      .about .img img {
+        width: 100%;
+      }
+      .about .content {
+        font-family: "Lato", sans-serif;
+        padding: 20% 15%;
+      }
+       .about .content .title{
+          font-size: 30px;
+          font-weight: 600;
+      } 
+      .about .content .desc {
+        font-size: 15px;
+      }
+      /* skills section */
+      .skills .content{
+        font-family: "Lato", sans-serif;
+        padding: 3% 10%;
+        background-color:#9490ac;;
+      }
+      .skills .content .title{
+          font-size: 26px;
+          font-weight: 800;
+          text-align: center;
+      }
+      .skills .grid-container{
+           display: grid;
+           grid-template-columns: repeat(4, 25%);
+           grid-gap: 10px 20px;
+      }
+      .skills .grid-container .grid-item{
+          border: 2px solid white;
+          background-color: white;
+          border-bottom: 5px solid gray;
+          border-radius: 10px;
+          padding: 10px 10px;     
+      }
+        .footer .content .title{
+          font-family: "Lato", sans-serif;
+          font-size: 50px;
+          font-weight: 800;
+          text-align: center;
+          background-color: darkseagreen;
+          padding: 40px;
+      }
+      /* contact section */
+      .contact{
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+        }
+        .contact .img img{
+            width: 70%;
+        }
+        .contact .content{
+            font-family: "Lato", sans-serif;
+            padding: 5%,10%;
+        }
+        .contact .content .title{
+                 font-size: 30px;
+                 font-weight: 800;
+        }
+        .contact .content .form .title{
+            font-size: 17px;
+        }
+        class="input"
+            padding: 2%,0%;
+        }
+    
+        .contact .content .form .input{
+           font-size: 17px;
+           font-family: "Lato", sans-serif;
+           border: 2px solid white;
+           border-radius: 2px;
+           width: 55%;
+           padding: 3%,2%;
+           margin-top: 2%;
+        }
+        .contact .content .form .btn{
+            border-radius: 20px;
+            background-color: darkkhaki;
+            color: black;
+            padding: 10px 27px;
+            cursor: pointer;
+      }
+          .contact .content .form .btn:hover {
+            background-color: #83a8c6;;
+      }
+        
+    </style>
+  </head>
+  <body>
+    <div class="main section">
+      <!-- Navbar Section -->
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Banner section -->
+    <div class="container banner">
+      <div class="img">
+        <img
+          src="https://t3.ftcdn.net/jpg/04/08/34/72/240_F_408347240_XoD3pgXWa44LJh8wL2K9nII6Gbdn0nPN.jpg"
+          alt="banner image"
+        />
+      </div>
+      <div class="content">
+        <p class="title">Hey! i'm <span>Vijendra sanodiya</span></p>
+        <p class="desc">I am a Software Developer</p>
+        <button class="btn" href="#About">About Me</button>
+      </div>
+    </div>
+    
+    <!-- about section -->
+    <div class="container about">
+      <div class="content">
+        <p class="title">About Me</p>
+        <p class="desc">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat,
+          voluptate. Nisi ab nobis quo beatae. Minima dignissimos perspiciatis
+          laborum iusto. Excepturi, deserunt! Dignissimos eveniet ex sunt id
+          ipsam. Excepturi, obcaecati?Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Distinctio commodi accusantium facilis consequatur
+          voluptatem ad adipisci velit fugiat sit sint, delectus assumenda.
+          Pariatur, suscipit quis cum voluptatem omnis quisquam provident?
+        </p>
+      </div>
+      <div class="img">
+        <img
+          src="https://miro.medium.com/max/1400/1*jinkGQhCoqO9I66qFJwr2w.png"
+          alt="about me image"
+        />
+      </div>
+    </div>
+
+    <!-- skills section -->
+    <div class="container skills">
+        <div class="content">
+          <p class="title">Skills</p>
+          <div class="grid-container">
+            <div class="grid-item">HTML</div>
+            <div class="grid-item">CSS</div>
+            <div class="grid-item">Bootstrap</div>
+            <div class="grid-item">JavaScript</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact section -->
+      <div class="container contact">
+        <div class="img">
+            <img
+                src="https://img.freepik.com/free-vector/contact-concept-landing-page_52683-21298.jpg?size=338&ext=jpg&ga=GA1.2.1012084526.1652016115"
+                alt="contact image"/>
+            </div>
+            <div class="content">
+          <p class="title">Get in Touch with me here!</p>
+          <form action="#" class="form">
+              <div class="field">
+                  <label for="email" class="title" >Email Id</label><br>
+                  <input type="emial" id="email" name="email" value="email@gmail" class="input">
+              </div><br>
+              <div class="field">
+                <label for="message" class="title" >Your Message</label><br>
+               <textarea name="message" id="message" cols="30" rows="1o" class="input"></textarea>
+            </div><br>
+            <input type="submit" value="submit" class="btn">
+          </form>
+        </div>
+      </div>
+
+      <!-- thank you -->
+      <div class="container footer">
+        <div class="content">
+          <p class="title">Thank You</p>
+          </div>
+        </div>
+  </body>
+</html>
